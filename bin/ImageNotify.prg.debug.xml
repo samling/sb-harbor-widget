@@ -77,34 +77,32 @@
 <entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="51" pc="268437311" symbol="onReceive"/>
 <entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="52" pc="268437329" symbol="onReceive"/>
 <entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="54" pc="268437340" symbol="onReceive"/>
-<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="55" pc="268437365" symbol="onReceive"/>
-<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="56" pc="268437391" symbol="onReceive"/>
-<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="59" pc="268437418" symbol="onReceive"/>
-<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="60" pc="268437431" symbol="onReceive"/>
-<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="61" pc="268437454" symbol="onReceive"/>
-<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="65" pc="268437476" symbol="onMail"/>
-<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="67" pc="268437480" symbol="onMail"/>
-<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="68" pc="268437501" symbol="onMail"/>
-<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="69" pc="268437501" symbol="onMail"/>
-<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="80" pc="268437580" symbol="onMail"/>
-<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="83" pc="268437620" symbol="onMsg"/>
-<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="84" pc="268437624" symbol="onMsg"/>
-<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="85" pc="268437645" symbol="onMsg"/>
-<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="86" pc="268437645" symbol="onMsg"/>
-<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="96" pc="268437724" symbol="onMsg"/>
-<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyApp.mc" lineNum="8" pc="268437764" symbol="onStart"/>
-<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyApp.mc" lineNum="9" pc="268437768" symbol="onStart"/>
-<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyApp.mc" lineNum="10" pc="268437808" symbol="onStart"/>
-<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyApp.mc" lineNum="14" pc="268437866" symbol="onStop"/>
-<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyApp.mc" lineNum="18" pc="268437871" symbol="getInitialView"/>
-<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyApp.mc" lineNum="19" pc="268437875" symbol="getInitialView"/>
-<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyApp.mc" lineNum="21" pc="268437915" symbol="initialize"/>
-<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyApp.mc" lineNum="22" pc="268437919" symbol="initialize"/>
-<entry filename="Rez" lineNum="19" pc="268437938" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="21" pc="268437942" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="22" pc="268438073" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="23" pc="268438125" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="26" pc="268438177" symbol="MainLayout"/>
+<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="57" pc="268437367" symbol="onReceive"/>
+<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="58" pc="268437380" symbol="onReceive"/>
+<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="59" pc="268437403" symbol="onReceive"/>
+<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="63" pc="268437425" symbol="onMail"/>
+<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="65" pc="268437429" symbol="onMail"/>
+<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="66" pc="268437450" symbol="onMail"/>
+<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="67" pc="268437450" symbol="onMail"/>
+<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="78" pc="268437529" symbol="onMail"/>
+<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="81" pc="268437569" symbol="onMsg"/>
+<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="82" pc="268437573" symbol="onMsg"/>
+<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="83" pc="268437594" symbol="onMsg"/>
+<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="84" pc="268437594" symbol="onMsg"/>
+<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyDelgate.mc" lineNum="94" pc="268437673" symbol="onMsg"/>
+<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyApp.mc" lineNum="8" pc="268437713" symbol="onStart"/>
+<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyApp.mc" lineNum="9" pc="268437717" symbol="onStart"/>
+<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyApp.mc" lineNum="10" pc="268437757" symbol="onStart"/>
+<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyApp.mc" lineNum="14" pc="268437815" symbol="onStop"/>
+<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyApp.mc" lineNum="18" pc="268437820" symbol="getInitialView"/>
+<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyApp.mc" lineNum="19" pc="268437824" symbol="getInitialView"/>
+<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyApp.mc" lineNum="21" pc="268437864" symbol="initialize"/>
+<entry filename="/Users/sboynton/Documents/workspace/ImageNotify/source/ImageNotifyApp.mc" lineNum="22" pc="268437868" symbol="initialize"/>
+<entry filename="Rez" lineNum="19" pc="268437887" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="21" pc="268437891" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="22" pc="268438022" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="23" pc="268438074" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="26" pc="268438126" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8" object="true" symbol="ImageNotifyView"/>
@@ -160,7 +158,7 @@
 </symbolTable>
 <localVars>
 <entry endPc="268437306" name="key" stackId="2" startPc="268437180"/>
-<entry endPc="268438194" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268437942"/>
+<entry endPc="268438143" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268437891"/>
 </localVars>
 <annotations/>
 <functions>
