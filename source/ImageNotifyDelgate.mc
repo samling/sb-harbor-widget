@@ -50,8 +50,8 @@ class ImageNotifyDelegate extends Ui.BehaviorDelegate
     function onReceive(responseCode, data) {
     	Sys.println(responseCode);
         if( responseCode == 200 ) {
- 			//notify.invoke(size); // invokes onReceive method
- 			Sys.println(data["0"]);
+ 			notify.invoke(data); // invokes onReceive method
+ 			Sys.println(data["0"]["day"]);
         }
         else {
             size = 0;

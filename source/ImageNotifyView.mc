@@ -12,6 +12,7 @@ class ImageNotifyView extends Ui.View {
 	var y;
 	var width;
 	var height;
+	var forecast;
 	
     hidden var paletteTEST=[
     	0xFF000000, 
@@ -55,13 +56,14 @@ class ImageNotifyView extends Ui.View {
         else if (status == 1) {
         	dc.setColor( Gfx.COLOR_BLACK, Gfx.COLOR_WHITE );
         	dc.clear();
+			Sys.println(forecast);
         	if (bitmap != null) {
          		x = (dc.getWidth() - bitmap.getWidth()) / 2;
         		y = (dc.getHeight() - bitmap.getHeight()) / 2;
-        	    dc.drawBitmap(x, y,bitmap);
          	    System.println(x.toString() + "," + y.toString());
  				//dc.drawText(dc.getWidth()/2, dc.getHeight()/2, Gfx.FONT_MEDIUM, bitmap.getWidth()+"/"+ bitmap.getHeight() , Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
         	}
+        	dc.drawText(dc.getWidth()/2, dc.getHeight()/2 - 15, Gfx.FONT_MEDIUM, forecast["0"]["day"], Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
         	drawIndicator(dc, index);
         }
         else if (status == -1) {
@@ -103,12 +105,14 @@ class ImageNotifyView extends Ui.View {
             method(:onReceiveImage)
         );
     }
-    function onReceive(s) {
-    	if (size != s) {
-        	size = s;
-        	index = -1;
-        }
-        requestImage();
+    function onReceive(data) {
+    	forecast = data;
+    	status = 1;
+    	//if (size != s) {
+        //	size = s;
+        //	index = -1;
+        //}
+        //requestImage();
         Ui.requestUpdate();
     }
     
