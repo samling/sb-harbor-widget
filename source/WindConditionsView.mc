@@ -56,15 +56,10 @@ class WindConditionsView extends Ui.View {
         else if (status == 1) {
         	dc.setColor( Gfx.COLOR_WHITE, Gfx.COLOR_BLACK );
         	dc.clear();
-			Sys.println(forecast);
-        	if (bitmap != null) {
-         		x = (dc.getWidth() - bitmap.getWidth()) / 2;
-        		y = (dc.getHeight() - bitmap.getHeight()) / 2;
-         	    System.println(x.toString() + "," + y.toString());
- 				//dc.drawText(dc.getWidth()/2, dc.getHeight()/2, Gfx.FONT_MEDIUM, bitmap.getWidth()+"/"+ bitmap.getHeight() , Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
+			for (var i = 0; i <= 3; i += 1) {
+        		Sys.println(forecast[i.toString()]["time"]);
+        		dc.drawText(dc.getWidth() / 2 - 70, ( dc.getHeight() / 4 - 5 ) + ( ( dc.getHeight() / 6 ) * i ), Gfx.FONT_TINY, forecast[i.toString()]["time"],  Gfx.TEXT_JUSTIFY_VCENTER | Gfx.TEXT_JUSTIFY_CENTER);        	
         	}
-        	dc.drawText(dc.getWidth()/2, dc.getHeight()/2 - 15, Gfx.FONT_MEDIUM, forecast["0"]["day"], Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
-        	drawIndicator(dc, index);
         }
         else if (status == -1) {
          	dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_WHITE);
