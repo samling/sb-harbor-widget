@@ -1,103 +1,103 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="24" pc="268435456" symbol="initialize"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="25" pc="268435460" symbol="initialize"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="26" pc="268435470" symbol="initialize"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="27" pc="268435480" symbol="initialize"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="30" pc="268435499" symbol="onLayout"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="31" pc="268435503" symbol="onLayout"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="32" pc="268435522" symbol="onLayout"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="38" pc="268435542" symbol="onShow"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="42" pc="268435547" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="43" pc="268435551" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="44" pc="268435568" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="45" pc="268435604" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="46" pc="268435616" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="47" pc="268435629" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="48" pc="268435672" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="49" pc="268435715" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="50" pc="268435751" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="53" pc="268435813" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="54" pc="268435876" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="57" pc="268435918" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="58" pc="268435954" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="59" pc="268435966" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="60" pc="268435990" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="61" pc="268436003" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="62" pc="268436046" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="63" pc="268436089" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="66" pc="268436151" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="67" pc="268436260" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="70" pc="268436302" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="71" pc="268436338" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="72" pc="268436350" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="73" pc="268436444" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="74" pc="268436538" symbol="onUpdate"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="79" pc="268436564" symbol="drawIndicator"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="80" pc="268436568" symbol="drawIndicator"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="86" pc="268436668" symbol="onHide"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="89" pc="268436673" symbol="requestImage"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="90" pc="268436677" symbol="requestImage"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="91" pc="268436694" symbol="requestImage"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="92" pc="268436707" symbol="requestImage"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="94" pc="268436711" symbol="requestImage"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="96" pc="268436742" symbol="requestImage"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="97" pc="268436755" symbol="requestImage"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="108" pc="268436869" symbol="onReceive"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="109" pc="268436873" symbol="onReceive"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="110" pc="268436883" symbol="onReceive"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="116" pc="268436896" symbol="onReceive"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="119" pc="268436913" symbol="onReceiveImage"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="120" pc="268436917" symbol="onReceiveImage"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="121" pc="268436928" symbol="onReceiveImage"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="122" pc="268436938" symbol="onReceiveImage"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="123" pc="268436951" symbol="onReceiveImage"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="126" pc="268436970" symbol="onReceiveImage"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="127" pc="268436983" symbol="onReceiveImage"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="128" pc="268436996" symbol="onReceiveImage"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyView.mc" lineNum="129" pc="268437009" symbol="onReceiveImage"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="11" pc="268437026" symbol="initialize"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="12" pc="268437030" symbol="initialize"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="13" pc="268437052" symbol="initialize"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="14" pc="268437062" symbol="initialize"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="15" pc="268437072" symbol="initialize"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="16" pc="268437087" symbol="initialize"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="18" pc="268437122" symbol="initialize"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="20" pc="268437154" symbol="initialize"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="21" pc="268437171" symbol="initialize"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="33" pc="268437244" symbol="onKey"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="34" pc="268437248" symbol="onKey"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="35" pc="268437261" symbol="onKey"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="36" pc="268437275" symbol="onKey"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="44" pc="268437344" symbol="onKey"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="47" pc="268437350" symbol="onKey"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="50" pc="268437375" symbol="onReceive"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="51" pc="268437379" symbol="onReceive"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="52" pc="268437397" symbol="onReceive"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="53" pc="268437408" symbol="onReceive"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="54" pc="268437428" symbol="onReceive"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="57" pc="268437461" symbol="onReceive"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="58" pc="268437474" symbol="onReceive"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="59" pc="268437497" symbol="onReceive"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="63" pc="268437519" symbol="onMail"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="65" pc="268437523" symbol="onMail"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="66" pc="268437544" symbol="onMail"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="67" pc="268437544" symbol="onMail"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="78" pc="268437623" symbol="onMail"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="81" pc="268437663" symbol="onMsg"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="82" pc="268437667" symbol="onMsg"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="83" pc="268437688" symbol="onMsg"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="84" pc="268437688" symbol="onMsg"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyDelgate.mc" lineNum="94" pc="268437767" symbol="onMsg"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyApp.mc" lineNum="8" pc="268437807" symbol="onStart"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyApp.mc" lineNum="9" pc="268437811" symbol="onStart"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyApp.mc" lineNum="10" pc="268437851" symbol="onStart"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyApp.mc" lineNum="14" pc="268437909" symbol="onStop"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyApp.mc" lineNum="18" pc="268437914" symbol="getInitialView"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyApp.mc" lineNum="19" pc="268437918" symbol="getInitialView"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyApp.mc" lineNum="21" pc="268437958" symbol="initialize"/>
-<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/ImageNotifyApp.mc" lineNum="22" pc="268437962" symbol="initialize"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="24" pc="268435456" symbol="initialize"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="25" pc="268435460" symbol="initialize"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="26" pc="268435470" symbol="initialize"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="27" pc="268435480" symbol="initialize"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="30" pc="268435499" symbol="onLayout"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="31" pc="268435503" symbol="onLayout"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="32" pc="268435522" symbol="onLayout"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="38" pc="268435542" symbol="onShow"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="42" pc="268435547" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="43" pc="268435551" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="44" pc="268435568" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="45" pc="268435604" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="46" pc="268435616" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="47" pc="268435629" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="48" pc="268435672" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="49" pc="268435715" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="50" pc="268435751" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="53" pc="268435813" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="54" pc="268435876" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="57" pc="268435918" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="58" pc="268435954" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="59" pc="268435966" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="60" pc="268435990" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="61" pc="268436003" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="62" pc="268436046" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="63" pc="268436089" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="66" pc="268436151" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="67" pc="268436260" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="70" pc="268436302" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="71" pc="268436338" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="72" pc="268436350" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="73" pc="268436444" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="74" pc="268436538" symbol="onUpdate"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="79" pc="268436564" symbol="drawIndicator"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="80" pc="268436568" symbol="drawIndicator"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="86" pc="268436668" symbol="onHide"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="89" pc="268436673" symbol="requestImage"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="90" pc="268436677" symbol="requestImage"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="91" pc="268436694" symbol="requestImage"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="92" pc="268436707" symbol="requestImage"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="94" pc="268436711" symbol="requestImage"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="96" pc="268436742" symbol="requestImage"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="97" pc="268436755" symbol="requestImage"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="108" pc="268436869" symbol="onReceive"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="109" pc="268436873" symbol="onReceive"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="110" pc="268436883" symbol="onReceive"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="116" pc="268436896" symbol="onReceive"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="119" pc="268436913" symbol="onReceiveImage"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="120" pc="268436917" symbol="onReceiveImage"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="121" pc="268436928" symbol="onReceiveImage"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="122" pc="268436938" symbol="onReceiveImage"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="123" pc="268436951" symbol="onReceiveImage"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="126" pc="268436970" symbol="onReceiveImage"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="127" pc="268436983" symbol="onReceiveImage"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="128" pc="268436996" symbol="onReceiveImage"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsView.mc" lineNum="129" pc="268437009" symbol="onReceiveImage"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="11" pc="268437026" symbol="initialize"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="12" pc="268437030" symbol="initialize"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="13" pc="268437052" symbol="initialize"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="14" pc="268437062" symbol="initialize"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="15" pc="268437072" symbol="initialize"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="16" pc="268437087" symbol="initialize"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="18" pc="268437122" symbol="initialize"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="20" pc="268437154" symbol="initialize"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="21" pc="268437171" symbol="initialize"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="33" pc="268437244" symbol="onKey"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="34" pc="268437248" symbol="onKey"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="35" pc="268437261" symbol="onKey"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="36" pc="268437275" symbol="onKey"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="44" pc="268437344" symbol="onKey"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="47" pc="268437350" symbol="onKey"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="50" pc="268437375" symbol="onReceive"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="51" pc="268437379" symbol="onReceive"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="52" pc="268437397" symbol="onReceive"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="53" pc="268437408" symbol="onReceive"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="54" pc="268437428" symbol="onReceive"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="57" pc="268437461" symbol="onReceive"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="58" pc="268437474" symbol="onReceive"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="59" pc="268437497" symbol="onReceive"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="63" pc="268437519" symbol="onMail"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="65" pc="268437523" symbol="onMail"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="66" pc="268437544" symbol="onMail"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="67" pc="268437544" symbol="onMail"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="78" pc="268437623" symbol="onMail"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="81" pc="268437663" symbol="onMsg"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="82" pc="268437667" symbol="onMsg"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="83" pc="268437688" symbol="onMsg"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="84" pc="268437688" symbol="onMsg"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsDelegate.mc" lineNum="94" pc="268437767" symbol="onMsg"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsApp.mc" lineNum="8" pc="268437807" symbol="onStart"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsApp.mc" lineNum="9" pc="268437811" symbol="onStart"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsApp.mc" lineNum="10" pc="268437851" symbol="onStart"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsApp.mc" lineNum="14" pc="268437909" symbol="onStop"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsApp.mc" lineNum="18" pc="268437914" symbol="getInitialView"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsApp.mc" lineNum="19" pc="268437918" symbol="getInitialView"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsApp.mc" lineNum="21" pc="268437958" symbol="initialize"/>
+<entry filename="/Users/sboynton/Documents/workspace/SB-Harbor-Wind/source/WindConditionsApp.mc" lineNum="22" pc="268437962" symbol="initialize"/>
 <entry filename="Rez" lineNum="19" pc="268437981" symbol="MainLayout"/>
 <entry filename="Rez" lineNum="21" pc="268437985" symbol="MainLayout"/>
 <entry filename="Rez" lineNum="22" pc="268438116" symbol="MainLayout"/>
@@ -105,56 +105,56 @@
 <entry filename="Rez" lineNum="26" pc="268438220" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
-<entry id="8" object="true" symbol="ImageNotifyView"/>
-<entry id="31" method="true" symbol="requestImage"/>
-<entry field="true" id="28" symbol="forecast"/>
+<entry id="19" method="true" symbol="requestImage"/>
+<entry field="true" id="16" symbol="forecast"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="9" object="true" symbol="WindConditionsDelegate"/>
 <entry id="8389657" symbol="maxHeight"/>
 <entry id="8389097" method="true" symbol="onKey"/>
-<entry id="32" method="true" symbol="onReceiveImage"/>
+<entry id="21" method="true" symbol="onReceiveImage"/>
 <entry field="true" id="8388611" symbol="Toybox"/>
 <entry id="8388770" module="true" symbol="Strings"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry id="19" method="true" symbol="MainLayout"/>
+<entry id="26" method="true" symbol="MainLayout"/>
 <entry id="8388769" module="true" symbol="Rez"/>
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry field="true" id="8388782" symbol="size"/>
-<entry id="9" object="true" symbol="ImageNotifyDelegate"/>
-<entry id="14" method="true" symbol="onMsg"/>
+<entry id="30" method="true" symbol="onMsg"/>
 <entry id="8388636" symbol="Attention"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="20" symbol="AppName"/>
-<entry id="10" object="true" symbol="ImageNotifyApp"/>
-<entry field="true" id="18" symbol="LauncherIcon"/>
+<entry field="true" id="27" symbol="AppName"/>
+<entry id="10" object="true" symbol="WindConditionsApp"/>
+<entry field="true" id="25" symbol="LauncherIcon"/>
 <entry id="8389660" symbol="palette"/>
-<entry id="29" symbol="paletteTEST"/>
+<entry id="17" symbol="paletteTEST"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry id="8389065" symbol="locY"/>
 <entry id="8389064" symbol="locX"/>
 <entry id="8388771" module="true" symbol="Drawables"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry id="21" symbol="mDelegate"/>
-<entry field="true" id="17" symbol="id_monkey"/>
-<entry field="true" id="25" symbol="index"/>
-<entry id="11" symbol="notify"/>
-<entry field="true" id="23" symbol="status"/>
+<entry id="31" symbol="mDelegate"/>
+<entry field="true" id="24" symbol="id_monkey"/>
+<entry field="true" id="13" symbol="index"/>
+<entry id="28" symbol="notify"/>
+<entry field="true" id="11" symbol="status"/>
 <entry field="true" id="8389067" symbol="height"/>
-<entry id="13" method="true" symbol="onMail"/>
-<entry id="16" module="true" symbol="Layouts"/>
+<entry id="29" method="true" symbol="onMail"/>
+<entry id="23" module="true" symbol="Layouts"/>
 <entry id="8389939" symbol="registerForPhoneAppMessages"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry field="true" id="24" symbol="bitmap"/>
+<entry field="true" id="12" symbol="bitmap"/>
 <entry id="8389345" symbol="rezId"/>
 <entry field="true" id="8389066" symbol="width"/>
 <entry id="8389063" symbol="identifier"/>
-<entry id="15" module="true" symbol="Menus"/>
-<entry id="30" method="true" symbol="drawIndicator"/>
-<entry id="12" method="true" symbol="onReceive"/>
-<entry field="true" id="27" symbol="y"/>
-<entry field="true" id="26" symbol="x"/>
+<entry id="22" module="true" symbol="Menus"/>
+<entry id="18" method="true" symbol="drawIndicator"/>
+<entry id="8" object="true" symbol="WindConditionsView"/>
+<entry id="20" method="true" symbol="onReceive"/>
+<entry field="true" id="15" symbol="y"/>
+<entry field="true" id="14" symbol="x"/>
 <entry id="8388772" module="true" symbol="Fonts"/>
-<entry id="22" symbol="mView"/>
+<entry id="32" symbol="mView"/>
 <entry id="8389661" symbol="maxWidth"/>
 </symbolTable>
 <localVars>
@@ -163,76 +163,76 @@
 </localVars>
 <annotations/>
 <functions>
-<functionEntry name="initialize" parent="ImageNotifyView">
+<functionEntry name="initialize" parent="WindConditionsView">
 <param id="i"/>
 <param id="s"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="onLayout" parent="ImageNotifyView">
+<functionEntry name="onLayout" parent="WindConditionsView">
 <param id="dc"/>
 <documentation><![CDATA[<div class="description"> Load your resources here<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry name="onShow" parent="ImageNotifyView">
+<functionEntry name="onShow" parent="WindConditionsView">
 <documentation><![CDATA[<div class="description"> Called when this View is brought to the foreground. Restore<br/> the state of this View and prepare it to be shown. This includes<br/> loading resources into memory.<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry name="onUpdate" parent="ImageNotifyView">
+<functionEntry name="onUpdate" parent="WindConditionsView">
 <param id="dc"/>
 <documentation><![CDATA[<div class="description"> Update the view<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry name="drawIndicator" parent="ImageNotifyView">
+<functionEntry name="drawIndicator" parent="WindConditionsView">
 <param id="dc"/>
 <param id="selectedIndex"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="onHide" parent="ImageNotifyView">
+<functionEntry name="onHide" parent="WindConditionsView">
 <documentation><![CDATA[<div class="description"> Called when this View is removed from the screen. Save the<br/> state of this View here. This includes freeing resources from<br/> memory.<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry name="requestImage" parent="ImageNotifyView">
+<functionEntry name="requestImage" parent="WindConditionsView">
 <documentation/>
 </functionEntry>
-<functionEntry name="onReceive" parent="ImageNotifyView">
+<functionEntry name="onReceive" parent="WindConditionsView">
 <param id="data"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="onReceiveImage" parent="ImageNotifyView">
+<functionEntry name="onReceiveImage" parent="WindConditionsView">
 <param id="responseCode"/>
 <param id="data"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="initialize" parent="ImageNotifyDelegate">
+<functionEntry name="initialize" parent="WindConditionsDelegate">
 <param id="s"/>
 <param id="handler"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="onKey" parent="ImageNotifyDelegate">
+<functionEntry name="onKey" parent="WindConditionsDelegate">
 <param id="evt"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="onReceive" parent="ImageNotifyDelegate">
+<functionEntry name="onReceive" parent="WindConditionsDelegate">
 <param id="responseCode"/>
 <param id="data"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="onMail" parent="ImageNotifyDelegate">
+<functionEntry name="onMail" parent="WindConditionsDelegate">
 <param id="mailIter"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="onMsg" parent="ImageNotifyDelegate">
+<functionEntry name="onMsg" parent="WindConditionsDelegate">
 <param id="msg"/>
 <documentation/>
 </functionEntry>
-<functionEntry name="onStart" parent="ImageNotifyApp">
+<functionEntry name="onStart" parent="WindConditionsApp">
 <param id="state"/>
 <documentation><![CDATA[<div class="description"> onStart() is called on application start up<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry name="onStop" parent="ImageNotifyApp">
+<functionEntry name="onStop" parent="WindConditionsApp">
 <param id="state"/>
 <documentation><![CDATA[<div class="description"> onStop() is called when your application is exiting<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry name="getInitialView" parent="ImageNotifyApp">
+<functionEntry name="getInitialView" parent="WindConditionsApp">
 <documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
 </functionEntry>
-<functionEntry name="initialize" parent="ImageNotifyApp">
+<functionEntry name="initialize" parent="WindConditionsApp">
 <documentation/>
 </functionEntry>
 <functionEntry name="MainLayout" parent="Layouts">

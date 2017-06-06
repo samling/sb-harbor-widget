@@ -3,7 +3,7 @@ using Toybox.Communications as Comm;
 using Toybox.Attention as Attention;
 using Toybox.System as Sys;
 
-class ImageNotifyDelegate extends Ui.BehaviorDelegate
+class WindConditionsDelegate extends Ui.BehaviorDelegate
 {
 	hidden var size;
 	hidden var notify;

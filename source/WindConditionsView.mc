@@ -3,7 +3,7 @@ using Toybox.Graphics as Gfx;
 using Toybox.Communications as Comm;
 using Toybox.System as Sys;
 
-class ImageNotifyView extends Ui.View {
+class WindConditionsView extends Ui.View {
 	var size;
 	var status  = -1;
 	var bitmap;
@@ -54,7 +54,7 @@ class ImageNotifyView extends Ui.View {
         	drawIndicator(dc, index);
         }
         else if (status == 1) {
-        	dc.setColor( Gfx.COLOR_BLACK, Gfx.COLOR_WHITE );
+        	dc.setColor( Gfx.COLOR_WHITE, Gfx.COLOR_BLACK );
         	dc.clear();
 			Sys.println(forecast);
         	if (bitmap != null) {
