@@ -5,22 +5,21 @@ using Toybox.System as Sys;
 
 class WindConditionsDelegate extends Ui.BehaviorDelegate
 {
-	hidden var size;
-	hidden var notify;
-
 	function initialize() {
         Ui.BehaviorDelegate.initialize();
      }
 
-	function onNextPage() {
-		page += 1;
-		Ui.requestUpdate();
-		return true;
-	}
-	
-	function onPreviousPage() {
-		page -= 1;
-		Ui.requestUpdate();
-		return true;
-	}
+    function onKey(evt) {
+    	if (evt.getKey() == Ui.KEY_ENTER) {
+			if (page < 2) {
+				page += 1;
+				Ui.requestUpdate();
+			} else {
+				page = 0;
+				Ui.requestUpdate();
+			}
+    		return true;
+    	}
+		return false;
+    }
 }

@@ -15,8 +15,6 @@ class WindConditionsApp extends App.AppBase {
 	
     //! onStart() is called on application start up
     function onStart(state) {
-        //mView = new WindConditionsView(-1, 0);
-        //mDelegate = new WindConditionsDelegate(0, mView.method(:onReceive));
     }
 
     //! onStop() is called when your application is exiting

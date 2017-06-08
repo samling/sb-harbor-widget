@@ -7,9 +7,9 @@ var appVersion = "1.0.0";
 class WindConditionsReader {
 
 	var location;
-	var time = new [4];
-	var spd = new [4];
-	var dir = new [4];
+	var time = new [12];
+	var spd = new [12];
+	var dir = new [12];
 
 	hidden var loadedCallback;
 	hidden var url;
@@ -27,11 +27,11 @@ class WindConditionsReader {
 	}
 	
 	function loaded(status, data) {
-		for (var i = 0; i < 4; i += 1) {
+		for (var i = 0; i < 12; i += 1) {
 			location = data["location"];
-			time[i] = data[(i + (page * 4)).toString()]["time"];
-			spd[i] = data[(i + (page * 4)).toString()]["wind_spd"];
-			dir[i] = data[(i + (page * 4)).toString()]["wind_dir"];
+			time[i] = data[i.toString()]["time"];
+			spd[i] = data[i.toString()]["wind_spd"];
+			dir[i] = data[i.toString()]["wind_dir"];
 		}
 		Ui.popView(0);
 	}

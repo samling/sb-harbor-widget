@@ -38,13 +38,14 @@ class WindConditionsView extends Ui.View {
     	View.onUpdate(dc);
         dc.setColor( Gfx.COLOR_WHITE, Gfx.COLOR_BLACK );
         dc.clear();
-        dc.drawText(dc.getWidth() / 2, ( dc.getHeight() / 4 - 10 ), Gfx.FONT_SYSTEM_TINY, location,  Gfx.TEXT_JUSTIFY_VCENTER | Gfx.TEXT_JUSTIFY_CENTER);
-		for (var i = page; i <= (page + 3); i += 1) {
-        	dc.drawText(dc.getWidth() / 2 - 50, ( dc.getHeight() / 4 + 25 ) + ( ( dc.getHeight() / 7 ) * i ), Gfx.FONT_TINY | Gfx.COLOR_ORANGE, time[i],  Gfx.TEXT_JUSTIFY_VCENTER | Gfx.TEXT_JUSTIFY_RIGHT);
-			dc.drawLine(dc.getWidth() / 2 - 100, ( dc.getHeight() / 4 + 8 ) + ( ( dc.getHeight() / 7 ) * i ), dc.getWidth() / 2 + 100, ( dc.getHeight() / 4 + 8 ) + ( ( dc.getHeight() / 7 ) * i ) );
-        	dc.drawText(dc.getWidth() / 2 - 30, ( dc.getHeight() / 4 + 25 ) + ( ( dc.getHeight() / 7 ) * i ), Gfx.FONT_XTINY, spd[i],  Gfx.TEXT_JUSTIFY_VCENTER | Gfx.TEXT_JUSTIFY_LEFT);        	
-        	dc.drawText(dc.getWidth() / 2 + 50, ( dc.getHeight() / 4 + 25 ) + ( ( dc.getHeight() / 7 ) * i ), Gfx.FONT_XTINY, dir[i],  Gfx.TEXT_JUSTIFY_VCENTER | Gfx.TEXT_JUSTIFY_LEFT);        	
-        }
+        dc.drawText(width / 2, ( height / 4 - 10 ), Gfx.FONT_SYSTEM_TINY, location,  Gfx.TEXT_JUSTIFY_VCENTER | Gfx.TEXT_JUSTIFY_CENTER);
+		for (var i = 0; i < 4; i += 1) {
+				index = i + (page * 4);
+         		dc.drawText(dc.getWidth() / 2 - 50, ( dc.getHeight() / 4 + 25 ) + ( ( dc.getHeight() / 7 ) * i ), Gfx.FONT_TINY | Gfx.COLOR_ORANGE, time[index],  Gfx.TEXT_JUSTIFY_VCENTER | Gfx.TEXT_JUSTIFY_RIGHT);
+				dc.drawLine(dc.getWidth() / 2 - 100, ( dc.getHeight() / 4 + 8 ) + ( ( dc.getHeight() / 7 ) * i ), dc.getWidth() / 2 + 100, ( dc.getHeight() / 4 + 8 ) + ( ( dc.getHeight() / 7 ) * i ) );
+        		dc.drawText(dc.getWidth() / 2 - 30, ( dc.getHeight() / 4 + 25 ) + ( ( dc.getHeight() / 7 ) * i ), Gfx.FONT_XTINY, spd[index],  Gfx.TEXT_JUSTIFY_VCENTER | Gfx.TEXT_JUSTIFY_LEFT);        	
+        		dc.drawText(dc.getWidth() / 2 + 50, ( dc.getHeight() / 4 + 25 ) + ( ( dc.getHeight() / 7 ) * i ), Gfx.FONT_XTINY, dir[index],  Gfx.TEXT_JUSTIFY_VCENTER | Gfx.TEXT_JUSTIFY_LEFT);        	
+        	}
     }
 
     //! Called when this View is removed from the screen. Save the
