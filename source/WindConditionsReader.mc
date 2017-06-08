@@ -11,7 +11,6 @@ class WindConditionsReader {
 	var spd = new [12];
 	var dir = new [12];
 
-	hidden var loadedCallback;
 	hidden var url;
 	
 	function initialize() {
@@ -23,10 +22,13 @@ class WindConditionsReader {
 	
 	function load() {
 		Ui.pushView (new LoadingView(), null, 0);
+		System.println("Request URL: " + url);
 		readConditions(url, method(:loaded));
 	}
 	
 	function loaded(status, data) {
+		System.println("Request status: " + status);
+		System.println("Request data: " + data);
 		for (var i = 0; i < 12; i += 1) {
 			location = data["location"];
 			time[i] = data[i.toString()]["time"];

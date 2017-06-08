@@ -4,7 +4,6 @@ using Toybox.Communications as Comm;
 using Toybox.System as Sys;
 
 class WindConditionsView extends Ui.View {
-	var index; // Page number (1, 2, 3, etc.)
 	var width;
 	var height;
     
@@ -26,6 +25,7 @@ class WindConditionsView extends Ui.View {
 
     //! Update the view
     function onUpdate(dc) {
+    	var index; // Page number (1, 2, 3, etc.)
         var location = reader.location;
         var time = reader.time;
         var spd = reader.spd;
