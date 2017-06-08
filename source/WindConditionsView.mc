@@ -6,7 +6,7 @@ using Toybox.System as Sys;
 class WindConditionsView extends Ui.View {
 	var size;
 	var status  = -1;
-	var index; // Page index (0, 1, 2)
+	var index; // Page number (1, 2, 3, etc.)
 	var x;
 	var y;
 	var width;
@@ -46,6 +46,7 @@ class WindConditionsView extends Ui.View {
         		dc.drawText(dc.getWidth() / 2 - 30, ( dc.getHeight() / 4 + 25 ) + ( ( dc.getHeight() / 7 ) * i ), Gfx.FONT_XTINY, spd[index],  Gfx.TEXT_JUSTIFY_VCENTER | Gfx.TEXT_JUSTIFY_LEFT);        	
         		dc.drawText(dc.getWidth() / 2 + 50, ( dc.getHeight() / 4 + 25 ) + ( ( dc.getHeight() / 7 ) * i ), Gfx.FONT_XTINY, dir[index],  Gfx.TEXT_JUSTIFY_VCENTER | Gfx.TEXT_JUSTIFY_LEFT);        	
         	}
+		dc.drawText(width / 2, 220, Gfx.FONT_SYSTEM_TINY, (page + 1) + "/3", Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
     }
 
     //! Called when this View is removed from the screen. Save the
