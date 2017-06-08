@@ -6,16 +6,13 @@ using Toybox.System as Sys;
 class WindConditionsView extends Ui.View {
 	var size;
 	var status  = -1;
-	var index;
+	var index; // Page index (0, 1, 2)
 	var x;
 	var y;
 	var width;
 	var height;
-	var forecast;
     
-    function initialize(i, s) {
-    	index = i;
-    	size = s;
+    function initialize() {
     	View.initialize();
     }
     //! Load your resources here
@@ -29,13 +26,25 @@ class WindConditionsView extends Ui.View {
     //! the state of this View and prepare it to be shown. This includes
     //! loading resources into memory.
     function onShow() {
-    	var time = reader.time;
-        System.println(time[0]);
     }
 
     //! Update the view
     function onUpdate(dc) {
+        var location = reader.location;
+        var time = reader.time;
+        var spd = reader.spd;
+        var dir = reader.dir;
     
+    	View.onUpdate(dc);
+        dc.setColor( Gfx.COLOR_WHITE, Gfx.COLOR_BLACK );
+        dc.clear();
+        dc.drawText(dc.getWidth() / 2, ( dc.getHeight() / 4 - 10 ), Gfx.FONT_SYSTEM_TINY, location,  Gfx.TEXT_JUSTIFY_VCENTER | Gfx.TEXT_JUSTIFY_CENTER);
+		for (var i = page; i <= (page + 3); i += 1) {
+        	dc.drawText(dc.getWidth() / 2 - 50, ( dc.getHeight() / 4 + 25 ) + ( ( dc.getHeight() / 7 ) * i ), Gfx.FONT_TINY | Gfx.COLOR_ORANGE, time[i],  Gfx.TEXT_JUSTIFY_VCENTER | Gfx.TEXT_JUSTIFY_RIGHT);
+			dc.drawLine(dc.getWidth() / 2 - 100, ( dc.getHeight() / 4 + 8 ) + ( ( dc.getHeight() / 7 ) * i ), dc.getWidth() / 2 + 100, ( dc.getHeight() / 4 + 8 ) + ( ( dc.getHeight() / 7 ) * i ) );
+        	dc.drawText(dc.getWidth() / 2 - 30, ( dc.getHeight() / 4 + 25 ) + ( ( dc.getHeight() / 7 ) * i ), Gfx.FONT_XTINY, spd[i],  Gfx.TEXT_JUSTIFY_VCENTER | Gfx.TEXT_JUSTIFY_LEFT);        	
+        	dc.drawText(dc.getWidth() / 2 + 50, ( dc.getHeight() / 4 + 25 ) + ( ( dc.getHeight() / 7 ) * i ), Gfx.FONT_XTINY, dir[i],  Gfx.TEXT_JUSTIFY_VCENTER | Gfx.TEXT_JUSTIFY_LEFT);        	
+        }
     }
 
     //! Called when this View is removed from the screen. Save the
@@ -43,16 +52,4 @@ class WindConditionsView extends Ui.View {
     //! memory.
     function onHide() {
     }
-    
-    function onReceive(data) {
-    	forecast = data;
-    	status = 1;
-    	//if (size != s) {
-        //	size = s;
-        //	index = -1;
-        //}
-        //requestImage();
-        Ui.requestUpdate();
-    }
-
 }

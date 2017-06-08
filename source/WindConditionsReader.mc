@@ -6,6 +6,7 @@ var appVersion = "1.0.0";
 
 class WindConditionsReader {
 
+	var location;
 	var time = new [4];
 	var spd = new [4];
 	var dir = new [4];
@@ -27,9 +28,10 @@ class WindConditionsReader {
 	
 	function loaded(status, data) {
 		for (var i = 0; i < 4; i += 1) {
-			time[i] = data[i.toString()]["time"];
-			spd[i] = data[i.toString()]["wind_spd"];
-			dir[i] = data[i.toString()]["wind_dir"];
+			location = data["location"];
+			time[i] = data[(i + (page * 4)).toString()]["time"];
+			spd[i] = data[(i + (page * 4)).toString()]["wind_spd"];
+			dir[i] = data[(i + (page * 4)).toString()]["wind_dir"];
 		}
 		Ui.popView(0);
 	}

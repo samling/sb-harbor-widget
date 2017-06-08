@@ -1,6 +1,7 @@
 using Toybox.Application as App;
 
 var reader;
+var page = 0;
 
 class WindConditionsApp extends App.AppBase {
     hidden var mDelegate;
@@ -24,8 +25,8 @@ class WindConditionsApp extends App.AppBase {
 
     //! Return the initial view of your application here
     function getInitialView() {
-    	mView = new WindConditionsView(-1, 0);
-    	mDelegate = new WindConditionsDelegate(0, mView.method(:onReceive));
+    	mView = new WindConditionsView();
+    	mDelegate = new WindConditionsDelegate();
         return [ mView, mDelegate ];
     }
 }
