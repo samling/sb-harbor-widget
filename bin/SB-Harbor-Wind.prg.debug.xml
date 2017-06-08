@@ -142,8 +142,8 @@
 <entry endPc="268436673" name="time" stackId="3" startPc="268435549"/>
 <entry endPc="268436673" name="maxSafeSpeed" stackId="7" startPc="268435549"/>
 <entry endPc="268437023" name="i" stackId="3" startPc="268436901"/>
-<entry endPc="268437748" name="rez_cmp_local_bitmap_R1Z9KUPSMS" stackId="2" startPc="268437495"/>
-<entry endPc="268437748" name="rez_cmp_local_bitmap_KJHLHI41TV" stackId="3" startPc="268437495"/>
+<entry endPc="268437748" name="rez_cmp_local_bitmap_EWV4WG0Q53" stackId="3" startPc="268437495"/>
+<entry endPc="268437748" name="rez_cmp_local_bitmap_GIRDSDUEM2" stackId="2" startPc="268437495"/>
 </localVars>
 <annotations/>
 <functions>

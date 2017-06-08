@@ -1,7 +1,7 @@
 <resources>
   <string id="AppName">WindConditions</string>
   <string id="Version">1.0.0</string>
-  <string id="DefaultLink">http://127.0.0.1:5000</string>
+  <string id="DefaultLink">http://sboynton.com:5555</string>
   <layout id="MainLayout" background="Gfx.COLOR_WHITE">
     <label text="Page Heading" x="10" y="5" font="Gfx.FONT_LARGE" color="Gfx.COLOR_BLACK" />
     <label text="Your information goes here." x="10" y="25" font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_ORANGE" />
