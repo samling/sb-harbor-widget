@@ -57,19 +57,19 @@ class WindConditionsView extends Ui.View {
 				}
 				
 				// Display the hour of the day in 12H time
-         		dc.drawText(dc.getWidth() / 2 - 50, ( dc.getHeight() / 4 + 25 ) + ( ( dc.getHeight() / 7 ) * i ), Gfx.FONT_TINY, time[index],  Gfx.TEXT_JUSTIFY_VCENTER | Gfx.TEXT_JUSTIFY_RIGHT);
+         		dc.drawText((width / 2) - (width / 5), ( height / 4 + 25 ) + ( ( height / 7 ) * i ), Gfx.FONT_TINY, time[index],  Gfx.TEXT_JUSTIFY_VCENTER | Gfx.TEXT_JUSTIFY_RIGHT);
 
 				// Draw and color-code a percentage bar divider based on wind speed out of 20MPH
 				dc.setColor(safetyLevel, Gfx.COLOR_BLACK);
-				dc.fillRectangle(dc.getWidth() / 2 - 100, ( dc.getHeight() / 4 + 40 ) + ( ( dc.getHeight() / 7 ) * i ), barFill * 2, 3);
+				dc.fillRectangle(width / 2 - 100, ( height / 4 + 40 ) + ( ( height / 7 ) * i ), barFill * 2, 3);
 				dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_BLACK);
 				
 				// Display the speed and direction of the wind at the given hour
-        		dc.drawText(dc.getWidth() / 2 - 30, ( dc.getHeight() / 4 + 25 ) + ( ( dc.getHeight() / 7 ) * i ), Gfx.FONT_XTINY, spd[index] + " MPH",  Gfx.TEXT_JUSTIFY_VCENTER | Gfx.TEXT_JUSTIFY_LEFT);        	
-        		dc.drawText(dc.getWidth() / 2 + 50, ( dc.getHeight() / 4 + 25 ) + ( ( dc.getHeight() / 7 ) * i ), Gfx.FONT_XTINY, dir[index],  Gfx.TEXT_JUSTIFY_VCENTER | Gfx.TEXT_JUSTIFY_LEFT);        	
+        		dc.drawText(width / 2 - width / 10, ( height / 4 + 25 ) + ( ( height / 7 ) * i ), Gfx.FONT_XTINY, spd[index] + " MPH",  Gfx.TEXT_JUSTIFY_VCENTER | Gfx.TEXT_JUSTIFY_LEFT);        	
+        		dc.drawText(width / 2 + width / 5, ( height / 4 + 25 ) + ( ( height / 7 ) * i ), Gfx.FONT_XTINY, dir[index],  Gfx.TEXT_JUSTIFY_VCENTER | Gfx.TEXT_JUSTIFY_LEFT);        	
         	}
         // Display which page we're on
-		dc.drawText(width / 2, 220, Gfx.FONT_SYSTEM_TINY, (page + 1) + "/3", Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
+		dc.drawText(width / 2, 9 * height / 10 + 5, Gfx.FONT_SYSTEM_TINY, (page + 1) + "/3", Gfx.TEXT_JUSTIFY_CENTER | Gfx.TEXT_JUSTIFY_VCENTER);
     }
 
     //! Called when this View is removed from the screen. Save the
